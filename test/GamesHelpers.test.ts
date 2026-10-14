@@ -15,7 +15,9 @@ const OtherLanguage = 512;
 const New = 1024;
 const Started = 2048;
 const Finished = 4096;
-const AllUpdated = 8191;
+const FullYes = 8192;
+const FullNo = 16384;
+const AllUpdated = 32767;
 
 // GameStage is a const enum with string values; use string literals to avoid import issues
 const GameStageCreated = 'Created' as any;
